@@ -48,4 +48,3 @@ class LRUCache:
                 del self.storage[deleted['key']]
         self.queue.enqueue({'key': key, 'value': value})
         self.storage[key] = value
-
